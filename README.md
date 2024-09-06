@@ -1,14 +1,14 @@
-# hello.py
-def say_hello(name):
+# main.py
+def saudacao_alura(nome):
     """
-    Função simples para saudar o usuário com uma mensagem personalizada.
+    Função simples para saudar o usuário como parte do trabalho da Alura.
 
     Parâmetros:
-    name (str): O nome do usuário para quem enviar a saudação.
+    nome (str): O nome do usuário para quem enviar a saudação.
     """
-    print(f"Olá, {name}! Bem-vindo ao repositório HelloGitHub!")
+    print(f"Olá, {nome}! Este é o início do seu trabalho para a Alura. Vamos aprender juntos!")
 
 if __name__ == "__main__":
     # Exemplo de uso da função
-    seu_nome = input("caio: ")
-    say_hello(caio)
+    seu_nome = input("Digite seu nome: ")
+    saudacao_alura(seu_nome)
